@@ -1,16 +1,44 @@
-# weather_demo
+#### 天气预报Demo
 
-A new Flutter application.
+使用`Flutter`制作一个可以查询天气的手机APP
 
-## Getting Started
+- Flutter环境版本：`stable`-`v1.12.13+hotfix.5`
 
-This project is a starting point for a Flutter application.
+- 功能
+    - 选择城市查询天气
+    - 定位当前城市查询天气
+    - 查看未来7天天气情况，使用安卓下类似`ViewPager`形式展现
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+##### 要求
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `Flutter`下，类似安卓的MVP架构的搭建
+- 网络请求模块：`Dio`
+- `Flutter`下的`shared_preferences`的使用
+- `fluro`路由管理
+- `flutter`下`StatefulWidget`和`StatelessWidget`的生存周期
+
+---
+
+##### 资源参考
+
+Flutter MVP框架使用：
+
+界面跳转（路由）使用:
+
+>  fluro: ^1.5.1
+
+shared_preferences:
+
+> shared_preferences: ^0.5.6+1
+
+dio:
+
+> dio: ^3.0.8
+
+---
+
+##### 制作周期
+
+- 2周
